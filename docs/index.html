@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>电途 - 技术支持</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      background: #f5f7fa;
+      color: #1d1d1f;
+      line-height: 1.7;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 680px;
+      margin: 0 auto;
+      background: #fff;
+      border-radius: 16px;
+      padding: 48px 40px;
+      box-shadow: 0 2px 20px rgba(0,0,0,0.06);
+    }
+    .header {
+      text-align: center;
+      padding-bottom: 32px;
+      border-bottom: 1px solid #eaeaea;
+      margin-bottom: 32px;
+    }
+    .header h1 {
+      font-size: 28px;
+      font-weight: 600;
+      margin-bottom: 8px;
+      color: #1d1d1f;
+    }
+    .header p {
+      font-size: 15px;
+      color: #6e6e73;
+    }
+    .section {
+      margin-bottom: 32px;
+    }
+    .section h2 {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 12px;
+      color: #1d1d1f;
+    }
+    .section p {
+      font-size: 15px;
+      color: #424245;
+      margin-bottom: 10px;
+    }
+    .section ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .section ul li {
+      font-size: 15px;
+      color: #424245;
+      padding: 6px 0 6px 20px;
+      position: relative;
+    }
+    .section ul li::before {
+      content: "•";
+      position: absolute;
+      left: 4px;
+      color: #0071e3;
+    }
+    .contact-box {
+      background: #f5f7fa;
+      border-radius: 12px;
+      padding: 24px;
+      margin-top: 12px;
+    }
+    .contact-box p {
+      margin-bottom: 8px;
+    }
+    a {
+      color: #0071e3;
+      text-decoration: none;
+      word-break: break-all;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .btn {
+      display: inline-block;
+      background: #0071e3;
+      color: #fff !important;
+      padding: 12px 28px;
+      border-radius: 8px;
+      font-size: 15px;
+      font-weight: 500;
+      margin-top: 12px;
+      text-decoration: none !important;
+    }
+    .btn:hover {
+      background: #0077ed;
+    }
+    .footer {
+      text-align: center;
+      font-size: 13px;
+      color: #86868b;
+      padding-top: 24px;
+      border-top: 1px solid #eaeaea;
+      margin-top: 8px;
+    }
+    @media (max-width: 480px) {
+      .container { padding: 32px 24px; }
+      .header h1 { font-size: 24px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>电途</h1>
+      <p>记录每一次充电，每一次里程。数据完全保留在本地。</p>
+    </div>
+
+    <div class="section">
+      <h2>关于电途</h2>
+      <p>电途是一款专注于电动车充电与里程记录的工具。它不社交、不云端、不追踪你，只做一件事：帮你把每一次充电、每一段里程，清清楚楚地留在自己手机里。</p>
+      <ul>
+        <li>记录每次充电的时间、电量、金额、充电桩和备注</li>
+        <li>记录每次出行的里程、起止时间和能耗</li>
+        <li>所有数据完全保留在本地，不上传服务器，无需注册账号</li>
+        <li>数据可自行导出、备份、删除，控制权完全在你手中</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>需要帮助？</h2>
+      <p>如果你在使用电途时遇到问题，或有功能建议，欢迎通过以下方式联系我们。我们会尽快回复。</p>
+      <div class="contact-box">
+        <p><strong>提交反馈或问题：</strong></p>
+        <p><a href="https://github.com/你的用户名/你的仓库名/issues/new" target="_blank">https://github.com/你的用户名/你的仓库名/issues/new</a></p>
+        <a class="btn" href="https://github.com/你的用户名/你的仓库名/issues/new" target="_blank">提交反馈</a>
+      </div>
+      <div class="contact-box">
+        <p><strong>邮件联系：</strong></p>
+        <p><a href="mailto:你的邮箱@example.com">你的邮箱@example.com</a></p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>常见问题</h2>
+      <p><strong>数据会上传到服务器吗？</strong><br>不会。电途的所有数据仅保存在你的设备本地，不收集、不上传、不共享任何记录。</p>
+      <p><strong>换手机后数据还在吗？</strong><br>由于数据保存在本地，换设备前请使用 App 内的导出功能自行备份，再在新设备上导入。</p>
+      <p><strong>卸载 App 后数据会保留吗？</strong><br>卸载 App 会同时删除本地数据，请在卸载前自行导出备份。</p>
+    </div>
+
+    <div class="section">
+      <h2>隐私承诺</h2>
+      <p>电途不收集、不上传、不共享你的任何数据。所有充电记录与里程数据仅保存在用户设备本地。</p>
+    </div>
+
+    <div class="footer">
+      <p>© 2026 电途. 保留所有权利。</p>
+    </div>
+  </div>
+</body>
+</html>
